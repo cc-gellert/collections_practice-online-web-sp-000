@@ -23,7 +23,8 @@ end
 def kesha_maker(arr)
   keshad = []
   arr.each do |word|
-    keshad.push(word[3] = "$")
+    neww = word[3] = "$"
+    keshad << neww 
   end
   return keshad 
 end 
