@@ -25,12 +25,9 @@ def reverse_array(arr)
 end 
 
 def kesha_maker(arr)
-  keshad = []
-  arr.each do |word|
-    neww = word[3] = "$"
-    keshad << neww 
-  end
-  return keshad 
+  arr.map do |word|
+    word[3] = "$"
+  end 
 end 
 
 def find_a(arr)
