@@ -13,10 +13,10 @@ def sort_array_char_count(arr)
 end 
 
 def swap_elements(arr)
-  index = arr[1]
-  destination = arr[2]
-  temp = arr[index]
-  
+  swap1 = arr[1]
+  swap2 = arr[2]
+  arr[1] = swap2
+  arr[2] = swap1 
   return arr 
 end 
 
